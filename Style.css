@@ -1,0 +1,26 @@
+body{
+    background-image: url('Img/BG.svg');
+}
+ul{
+    list-style: none;
+}
+.Center{
+    padding: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem 1rem #00000060;
+    max-width: 50%;
+    margin: 2.5rem auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.Center .Home img{
+    border: 0.1rem solid black;
+}
+.Center .Ingredientes img{
+    width: 3.2rem;
+    height: 3.2rem;
+}
+.Center .Ingredientes ul li{
+    display: flex;
+}
